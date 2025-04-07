@@ -35,7 +35,7 @@ export default function SuggestionForm() {
       setMessage({ type: 'error', text: 'Failed to submit suggestion. Try again later.' })
       console.error('Supabase error:', error)
     } else {
-      setMessage({ type: 'success', text: 'Suggestion submitted! Thank you 😊' })
+      setMessage({ type: 'success', text: 'Suggestion submitted! Suggestions will be reviewed within 24 hours. Check back then! 😊' })
       setName('')
       setSuggestion('')
     }
